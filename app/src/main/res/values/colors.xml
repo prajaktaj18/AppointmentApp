@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C90A77</color>
+    <color name="colorPrimaryDark">#C90A77</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="theme_purple">#C90A77</color>
+    <color name="theme_grey">#6D6E71</color>
+    <color name="txtColor">#464646</color>
+
+</resources>

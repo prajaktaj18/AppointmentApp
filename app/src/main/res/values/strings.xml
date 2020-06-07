@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Appointment Diary</string>
+    <string name="splash_global_beauty"><![CDATA[<font color="#C90A77">Global </font><font color="#6D6E71">BEAUTY</font>]]></string>
+    <string name="parlour">Parlour</string>
+    <string name="choose_service_message">Choose our Service</string>
+    <string name="about_info"><![CDATA[<b>Global Beauty Parlor</b> <br>Shop no 3, Seven Hills,<br>Aurangabad-MH<br><b>1234567890</b>]]></string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="book_appointment_here">Book Appointment Here</string>
+    <string name="show_pkg">Show Packages</string>
+    <string name="appointment_history">Appointment History</string>
+    <string name="about_us">About Us</string>
+    <string name="name">Name</string>
+    <string name="book">Book</string>
+    <string name="additional_info">Additional Information</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="no_data">No Data Available..!</string>
+
+    <string name="home_seq_local_file_path">file/home_seq_uat/home_sequence_data.json</string>
+    <string name="hair_cut">Hair cut</string>
+    <string name="spa">Spa</string>
+    <string name="hair_color">Hair color</string>
+    <string name="make_up">Make up</string>
+    <string name="facial">Facial</string>
+    <string name="bridal">Bridal</string>
+    <string name="your_appointment_is_booked_for">Your Appointment is Booked</string>
+    <string name="successfully">Successfully</string>
+</resources>

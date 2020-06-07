@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:focusableInTouchMode="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/txt_book_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/padding_12dp"
+        android:text="@string/book_appointment_here"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:textSize="@dimen/text_size_18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/edt_additional_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_picker"
+        android:layout_width="@dimen/height_80"
+        android:layout_height="@dimen/height_80"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_calender"
+        android:padding="5dp"
+        android:layout_marginTop="@dimen/margin_8dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_book_appointment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>
